@@ -3,6 +3,7 @@
 #-*- coding: utf-8 -*-
 
 #Importer json
+import json
 
 
 #Affiche un message et demande le no
