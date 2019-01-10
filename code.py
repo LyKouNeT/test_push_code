@@ -15,3 +15,5 @@ print("Votre nom est : {}".format(nom[len(nom)-1]))
 
 #Enregistre le nom de l'utilisateur dans
 #le fichier data.json
+with open("./data.json", 'w') as f:
+    json.dump(nom, f)
